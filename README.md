@@ -1,17 +1,16 @@
 lightsocks
 ===========
 
-We walk in the dark, to serve the light.
+私たちは暗闇の中を歩き、光に仕える・・・
 
 [shadowsocks](https://github.com/clowwindy/shadowsocks) is a lightweight tunnel proxy which can help you get through firewalls
 
-lightsocks is a shadowsocks client serving as a transparent proxy. Once set up, you can
-visit `localhost:local_port` as if you are visiting `target_server:target_port`.
+lightsocks は透過型プロキシとして機能する shadowsocks クライアントです。一度セットアップすると、localhost:local_port` に、あたかも `target_server:target_port` にアクセスしているような感覚でアクセスすることができます。
 
-usage
+使用法
 -----------
 
-First, set up [shadowsocks](https://github.com/clowwindy/shadowsocks) server
+まず、セットアップを行ってください。[shadowsocks](https://github.com/clowwindy/shadowsocks) server
 on your VPS.
 
 Then edit `config.json`, change the following values:
